@@ -1,0 +1,579 @@
+header {
+    display: flex;
+    position: relative;
+    padding: 20px;
+}
+
+a {
+
+
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    padding: 60px;
+}
+
+
+#shopimg {
+    height: 20px;
+
+}
+
+
+#logohead {
+    height: 150px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+
+
+}
+
+#alogin {
+
+    position: relative;
+    top: 12px;
+    margin-left: 20px;
+
+}
+
+#loginbtn {
+
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #FF00A6;
+    border: #FF00A6;
+
+}
+
+
+
+#topdiv {
+    background-color: rgba(219, 218, 218, 0.418);
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    padding: 0%;
+    border-bottom-right-radius: 120px;
+
+
+
+}
+
+#pizzaimg {
+    width: 55%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+
+#horder1 {
+    position: absolute;
+    right: 30px;
+    top: 150px;
+    font-size: 50px;
+}
+
+#hqaza1 {
+    color: #FF00A6;
+    position: absolute;
+    right: 270px;
+    top: 150px;
+    font-size: 50px;
+}
+
+#worderh2 {
+    position: absolute;
+    right: 30px;
+    font-size: 15px;
+    top: 240px;
+    direction: rtl;
+    color: rgba(0, 0, 0, 0.74);
+
+}
+
+#inputdiv {
+    height: 50px;
+    width: 450px;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    right: 30px;
+    top: 320px;
+    border-width: 0.2px;
+    border: solid rgba(128, 128, 128, 0.384);
+}
+
+
+#inaddress {
+    width: 380px;
+    text-align: right;
+    padding-right: 10px;
+    position: absolute;
+    height: 40px;
+    right: 15px;
+    margin-top: 2px;
+    border: none;
+    font-size: 20px;
+}
+
+#sicon {
+    height: 40px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+
+}
+
+
+.menubar {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    direction: rtl;
+    display: flex;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 12px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 100%;
+    height: 150px;
+}
+
+.sub {
+    position: relative;
+    display: block;
+    width: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+.sub img {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+
+}
+
+
+.sub a {
+    text-align: center;
+    font-size: 18px;
+}
+
+.sub:hover {
+    background-color: #ff00a649;
+
+
+}
+
+
+.hdastebandi {
+    position: relative;
+    right: 0px;
+    direction: rtl;
+
+}
+
+
+.divcat {
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    text-align: right;
+    justify-content: right;
+    padding-right: 0%;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+
+}
+
+.colcat {
+
+    width: 16.6%;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-right: 0%;
+    position: relative;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    object-fit: contain;
+
+
+}
+
+
+.colcat img {
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    border-style: solid;
+    border-color: white;
+}
+
+.colcat p {
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    top: 74px;
+    right: -4px;
+    width: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.colcat img:hover {
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 12px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.colcat p:hover {
+
+    background-color: rgb(243, 237, 237);
+
+}
+
+.appdiv {
+    width: 100%;
+    height: 500px;
+    border-bottom-right-radius: 50px;
+    background-color: rgba(219, 218, 218, 0.418);
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+
+
+.leftdiv {
+    width: 60%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.mobiles {
+    height: 730px;
+    position: absolute;
+    top: -180px;
+
+}
+
+.rightdiv {
+    direction: rtl;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+
+}
+
+.givelinkbtn {
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #FF00A6;
+    border: #FF00A6;
+    margin: 10px;
+    width: 30%;
+
+}
+
+.indivapp {
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.innumber {
+    direction: ltr;
+    width: 58%;
+    font-size: 20px;
+    margin-right: 10px;
+    height: 37px;
+    border: none;
+    text-align: right;
+
+}
+
+.imgholder {
+    margin-top: 50px;
+
+}
+
+
+.rowshopdiv {
+    width: 100%;
+    height: 350px;
+    border-bottom-right-radius: 50px;
+    background-color: rgba(219, 218, 218, 0.418);
+    display: flex;
+    margin-top: 150px;
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 40px;
+
+}
+
+.divshopright {
+    direction: rtl;
+    width: 60%;
+    box-sizing: border-box;
+    margin-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+
+}
+
+
+.divshopleft {
+
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.divshopleft img {
+
+    width: 450px;
+    padding-left: 70px;
+    position: absolute;
+    top: -80px;
+    box-sizing: border-box;
+
+}
+
+
+.divshopright button img {
+    width: 23px;
+    position: relative;
+    top: 3px;
+    color: white;
+}
+
+.divshopright button {
+
+    height: 50px;
+    border-radius: 10px;
+    font-size: 19px;
+    background-color: #FF00A6;
+    border: #FF00A6;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    color: white;
+}
+
+.divshopright h1 {
+    font-size: 50px;
+}
+
+.divshopright h3 {
+    font-size: 20px;
+
+}
+
+.rowcity {
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 60px;
+    padding-top: 20px;
+    padding-right: 0%;
+    text-align: right;
+}
+
+.colcity {
+    margin-right: 0%;
+    width: 9%;
+}
+
+.colcity p {
+    color: rgba(0, 0, 0, 0.44);
+    text-align: center;
+
+}
+
+
+.colcity p:hover {
+    color: #FF00A6;
+}
+
+
+footer {
+    background-color: rgba(219, 218, 218, 0.418);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    position: relative;
+}
+
+.rowfooter {
+    width: 100%;
+    display: flex;
+}
+
+.rightdivfooter {
+    direction: rtl;
+    width: 50%;
+    margin-right: 0%;
+    position: absolute;
+    right: 50px;
+
+}
+
+.rightdivfooter h2 {
+    color: #FF00A6;
+    position: absolute;
+    top: 10px;
+    right: 180px;
+    font-size: 35px;
+    display: block;
+
+}
+
+.rightdivfooter p {
+
+    position: absolute;
+    top: 70px;
+    right: 180px;
+}
+
+
+.rightdivfooter img {
+
+    width: 150px;
+    text-align: right;
+
+}
+
+.logoholder {
+    display: flex;
+    text-align: center;
+
+}
+
+.tellogos {
+    width: 20%;
+    background-color: white;
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.tellogos img {
+    width: 65px;
+}
+
+.tellogos:hover {
+    background-color: #ff00a678;
+}
+
+ul {
+
+    list-style: none;
+}
+
+li:hover {
+    color: #FF00A6;
+}
+
+
+.leftdivfooter {
+
+    width: 20%;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+
+}
+
+.midledivfooter {
+
+    width: 20%;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+    #pizzaimg {
+        width: 650px;
+    }
+
+
+    .sub {
+
+        width: 11.14%;
+
+    }
+
+
+    .mobiles {
+
+        width: 250px;
+
+    }
+
+
+    .indivapp {
+        width: 400px;
+
+    }
+
+    .withsnap {
+
+        font-size: 20px;
+    }
+
+    .imgholder a img {
+        width: 135px;
+    }
+
+    .colcat p {
+        position: absolute;
+        top: 30px;
+    }
+
+    .rowshopdiv {
+        position: relative;
+    }
+
+    .divshopleft img {
+        width: 340px;
+        position: absolute;
+        left: 0px;
+        padding-left: 0%;
+    }
+
+    .divshopright button {
+
+        width: 200px;
+    }
+
+
+
+}
